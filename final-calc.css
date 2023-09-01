@@ -1,0 +1,41 @@
+body{
+  color: white;
+  background-color: black;
+}
+.name{
+  font-family: Arial, Helvetica, sans-serif;
+  padding:0 5vw;
+  color: rgb(175, 175, 175);
+}
+.container{
+  margin-top: 8vw;
+  margin-left: 41%;
+}
+
+button{
+  background-color: rgb(51, 51, 51);
+  color: white; 
+  font-size: 26px;
+  border: none;
+  border-radius: 60px;
+  height: 60px;
+  width: 60px;
+  margin-right: 5px;
+
+}
+
+.operation-btn{
+  background-color: rgb(254, 160, 10);
+  
+}
+
+.calculation-css{
+  font-family: Arial;
+  font-size: 45px;
+  margin-top:0;
+  margin-bottom: 0;
+}
+
+.clear-btn{
+ font-size: 16px;
+}

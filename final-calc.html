@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>calculator</title>
+  <link rel="stylesheet" href="final-calc.css">
+</head>
+<body>
+   <h1 class="name">SIMPLE CALCULATOR</h1>
+  
+<div class="container">
+ <p class="js-calculation calculation-css"></p>
+
+ <p>
+    <button onclick="
+    updateCalculation('1');
+    displayInPage();
+   ">
+    1
+  </button>
+  
+ <button onclick="
+  updateCalculation('2');
+  displayInPage();
+ ">
+    2
+ </button>
+
+ <button onclick="
+ updateCalculation('3');
+ displayInPage();
+ ">
+    3
+ </button>
+
+ <button class="operation-btn" onclick="
+ updateCalculation(' + ');
+ displayInPage();
+ ">
+    +
+ </button>
+
+
+ </p>
+
+ <p>
+
+<button onclick="
+ updateCalculation('4');
+ displayInPage();
+ ">
+ 4
+</button>
+
+<button onclick="
+updateCalculation('5');
+displayInPage();
+">
+ 5
+</button>
+
+<button onclick="
+updateCalculation('6');
+displayInPage();
+">
+ 6
+</button>
+
+<button class="operation-btn" onclick="
+updateCalculation(' - ');
+displayInPage();
+ ">
+ -
+</button>
+
+ </p>
+
+ <p>
+
+
+ <button onclick="
+ updateCalculation('7');
+ displayInPage();
+ ">
+  7
+ </button>
+
+ <button onclick="
+ updateCalculation('8');
+ ">
+  8
+ </button>
+
+ <button onclick="
+ updateCalculation('9');
+ displayInPage();
+ ">
+  9
+ </button>
+
+ <button class="operation-btn" onclick="
+ updateCalculation(' * ');
+ displayInPage();
+
+ ">
+    *
+ </button>
+
+ <p>
+
+    <button onclick="
+      updateCalculation('0');
+      displayInPage();
+       ">
+       0
+    </button>
+
+    <button onclick="
+    updateCalculation('.');
+    displayInPage();
+    ">
+       .
+    </button>
+
+    <button onclick="
+    calculate();
+    displayInPage();
+    ">
+       =
+    </button>
+   
+    <button class="operation-btn" onclick="
+    updateCalculation(' / ');
+    displayInPage();
+    ">
+       /
+    </button>
+ </p>
+
+ <p>
+    <button class="clear-btn" onclick="
+       clearCalculation();
+       displayInPage();
+       ">
+       Clear
+    </button>
+
+    <script src="final-calc.js"></script>
+ </p>
+</div>
+</body>
+</html>
